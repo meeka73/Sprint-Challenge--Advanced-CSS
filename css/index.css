@@ -171,6 +171,7 @@ p {
 .navigation .nav-items {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
 }
 .navigation .nav-items h1 {
@@ -229,6 +230,7 @@ footer {
   padding: 50px 60px;
   display: flex;
   justify-content: center;
+  align-items: stretch;
 }
 .home .walk .walk-text {
   width: 50%;
