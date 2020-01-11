@@ -1,9 +1,21 @@
 // Mixins Here
-.spacing(@p) {
-    padding: @p;
+.spacing {
+    padding: 15px;
 }
 
+.width {
+    width: 100%;
+}
+
+
+
+//Parametric Mixins
 .flex-layout(@j, @a) {
     justify-content: @j;
     align-items: @a;
+}
+
+.margin(@mt, @mb) {
+    margin-top: @mt;
+    margin-bottom: @mb;
 }

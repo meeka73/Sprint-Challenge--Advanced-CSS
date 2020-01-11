@@ -5,7 +5,7 @@
   .intro {
 
     h2 {
-      .spacing(15px);
+      .spacing();
     }
 
     p {
@@ -17,7 +17,7 @@
   .space-images {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    .width();
 
     img {
       width: 28%;
@@ -28,18 +28,19 @@
   }
 
   .visit-planets {
-    .spacing(15px);
+    .spacing();
 
     h3 {
-      margin-top: 11px;
+      .margin(11px, 0);
     }
 
     p {
-      margin-top: 13px;
+      .margin(13px, 0);
     }
   }
 
   .walk {
+    .margin(60px, 0);
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
@@ -74,7 +75,7 @@
       margin-left: 4%;
       
       img {
-        width: 100%;
+        .width();
         height: auto;
         border-radius: 10px;
       }

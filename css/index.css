@@ -1,3 +1,9 @@
+.spacing {
+  padding: 15px;
+}
+.width {
+  width: 100%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -220,11 +226,14 @@ footer {
 }
 .home .visit-planets h3 {
   margin-top: 11px;
+  margin-bottom: 0;
 }
 .home .visit-planets p {
   margin-top: 13px;
+  margin-bottom: 0;
 }
 .home .walk {
+  margin-bottom: 0;
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
